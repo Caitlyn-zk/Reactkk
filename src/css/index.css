@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.topclass {
+	height: 60px;
+	background: rgba(116, 141, 5, 0.342);
+	color: aliceblue;
+	font-size: 16px;
+}
+.appcontent {
+	height: 400px;
+}
+.left {
+	width: 200px;
+	height: 100%;
+	background: rgb(160, 212, 204);
+	color: #fff;
+	float: left;
+}
+a.contentaa {
+	color: rebeccapurple;
+}
+.aboutclass {
+	background: rgb(226, 212, 212);
+}
+.about-lists:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.about-list li {
+	float: left;
+	list-style: none;
+	margin: 0 40px;
+}
